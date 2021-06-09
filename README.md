@@ -79,7 +79,8 @@ sudo usermod -G sadjad oslab
 یوزر را به گروه سجاد اضافه میکنیم
 
 
-sudo usermod -G Uni 
+sudo usermod -G Uni oslab
+
 یوزر ا به گروه یونس اضافه میکنیم.
 
 sudo gpasswd -A oslab sadjad
@@ -92,7 +93,7 @@ sudo useradd os2
 
 او اس 2 را بعنوان کاربر جدید ایجاد میکنیم
 
-sudo usermod -G sadjad
+sudo usermod -G sadjad os2 
 
 حساب جدید کاربری را به گروه سجاد اضافه میکنیم
 
